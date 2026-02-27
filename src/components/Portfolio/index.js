@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Loader from 'react-loaders';
 import './index.scss';
-import iso from '../../assets/images/portfolio/Adire.png';
-import robot from '../../assets/images/portfolio/safari.png';
+import iso from '../../assets/images/portfolio/iso.png';
+import robot from '../../assets/images/portfolio/robot.png';
 
 const Portfolio = () => {
   const [projects] = useState([
