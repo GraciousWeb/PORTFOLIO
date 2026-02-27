@@ -28,7 +28,7 @@ const Portfolio = () => {
       url: 'https://github.com/GraciousWeb/mlflow',
     },
     {
-      name: 'Producr Review Rating Predictor',
+      name: 'Product Review Rating Predictor',
       description:
         'A multi-class rating prediction model using TF-IDF feature engineering and a balanced Linear SVM to classify Amazon reviews into 1–5 star ratings.',
       image: robot,
