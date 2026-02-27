@@ -1,40 +1,40 @@
 import React, { useState, useEffect } from 'react';
 import Loader from 'react-loaders';
 import './index.scss';
-import Adire from '../../assets/images/portfolio/Adire.png';
-import safari from '../../assets/images/portfolio/safari.png';
+import iso from '../../assets/images/portfolio/Adire.png';
+import robot from '../../assets/images/portfolio/safari.png';
 import wakanow from '../../assets/images/portfolio/wakanow.png';
 import airtimeCash from '../../assets/images/portfolio/airtime-cash.png';
 
 const Portfolio = () => {
   const [projects] = useState([
     {
-      name: 'Project Love-Fashion Backend',
+      name: 'Compliance RAG Assistant',
       description:
-        ' A digital platform that empowers individuals and organizations to craft, manage, and share fashion-related articles and updates.        ',
-      image: Adire,
-      url: 'https://github.com/GraciousWeb/Love-Fashion',
+        ' A retrieval-augmented generation (RAG) assistant over ISO compliance documents to deliver accurate, context-aware regulatory guidance with grounded source citations.        ',
+      image: iso,
+      url: 'https://github.com/GraciousWeb/professional_RAG_assistant',
     },
     {
-      name: 'Project Safari',
+      name: 'Fraud Detection System',
       description:
-        'Explore props for film/theater like cars, set decor. Connect with production companies for equipment and collaboration.',
-      image: wakanow,
-      url: 'https://github.com/GraciousWeb/Shopper',
+        'A machine learning system to detect and predict high-risk credit and fraudulent transactions using advanced classification models and feature engineering.',
+      image: robot,
+      url: 'https://github.com/GraciousWeb/credit-risk-fraud-detection',
     },
     {
-      name: 'Project Shopper Backend',
+      name: 'Project Heart Disease Prediction',
       description:
-        'A versatile ecommerce platform offering diverse products, seamless transactions, and a user-friendly experience for online shoppers globally.',
-      image: safari,
-      url: 'https://github.com/GraciousWeb/Shopper',
+        ' An end-to-end heart disease prediction pipeline with multiple classification models and MLflow experiment tracking to compare performance and ensure reproducible results.',
+      image: robot,
+      url: 'https://github.com/GraciousWeb/mlflow',
     },
     {
-      name: 'Project Airtime To Cash',
+      name: 'Producr Review Rating Predictor',
       description:
-        'An app to convert airtime to cash, offering convenience and ease for users to exchange mobile credit for money.',
-      image: airtimeCash,
-      url: 'https://airtimetocashpodg.netlify.app/#about-us',
+        'A multi-class rating prediction model using TF-IDF feature engineering and a balanced Linear SVM to classify Amazon reviews into 1–5 star ratings.',
+      image: robot,
+      url: 'https://github.com/GraciousWeb/product_review_rating_predictor',
     },
   
   ]);

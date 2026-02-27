@@ -12,26 +12,30 @@ const Home = () => {
   const hiArray = ['H', 'i', ','];
   const imArray = ['I', "'", 'm ', " "];
   const systemDeveloperArray = [
+    ' ',
     'A',
-    ' ',
-    'S',
-    'o',
-    'f',
-    't',
-    'w',
-    'a',
     'r',
-    'e',
+    't',
+    'i',
+    'f',
+    'i',
+    'c',
+    'i',
+    'a',
+    'l',
     ' ',
-    'D',
-    'e',
-    'v',
+    'I',
+    'n',
+    't',
     'e',
     'l',
-    'o',
-    'p',
+    'l',
+    'i',
+    'g',
     'e',
-    'r',
+    'n',
+    'c',
+    'e',
   ];
 
   useEffect(() => {
@@ -73,7 +77,7 @@ const Home = () => {
               }
             />
           </h1>
-          <h2>FullStack Developer</h2>
+          <h2>AI Engineer</h2>
           <Link to="/contact" className="flat-button">
             {' '}
             CONTACT ME{' '}

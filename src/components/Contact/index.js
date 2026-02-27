@@ -67,8 +67,8 @@ const Contact = () => {
           </h1>
           <p>
             I'm always open to new opportunities, collaborations, and
-            interesting projects. Whether you're looking to build a web
-            application, or just want to chat about tech, I'd love to hear from
+            interesting projects. Whether you're looking to build an AI-powered solution, have a question about my work, want to discuss a potential job or internship,
+            or just want to chat about tech, I'd love to hear from
             you.
           </p>
           <div className="contact-form">
@@ -118,7 +118,7 @@ const Contact = () => {
           <br />
           Nigeria,
           <br />
-          Orchid Road, Lekki-Peninsula, <br />
+          Lekki, <br />
           Lagos. <br />
           <span>graceonuoha302@gmail.com</span>
         </div>

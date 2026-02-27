@@ -33,9 +33,9 @@ const About = () => {
             />
           </h1>
           <p>
-          Hello, I'm Grace Onuoha, a passionate and detail-oriented software developer based in Nigeria.
-           With a background in Java programming and a flair for creating innovative solutions,
-           I thrive in dynamic and collaborative environments.
+          I am  an AI Engineer with hands-on experience integrating Large Language Models into real applications including prompt engineering, API integration, basic RAG pipelines, and evaluation workflows. I’m comfortable turning AI ideas into stable, testable backend services.
+          I focus on practical results: clean integration, predictable behavior, and systems that are easy to extend and maintain. 
+          I thrive in dynamic and collaborative environments.
           </p>
           <br />
           <p>

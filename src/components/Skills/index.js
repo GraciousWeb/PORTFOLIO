@@ -5,30 +5,24 @@ import Loader from 'react-loaders';
 
 const Skills = () => {
   const skills = [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'React',
+    'Python',
+    'AI Integration',
+    'Pytorch',
+    'Tensorflow',
     'Java',
-    'MySQL',
-    'Spring Boot',
-    'Postgres',
-    'Servlet',
-    'JSP',
-    'J2EE',
-    'Scrum',
-    'Bootstrap',
+    'Vector Databases',
+    'Hugging Face',
+    'Computer Vision',
+    'Object Detection',
+    'MLOps',
+    'RAG Pipelines',
+    'Langchain',
+    'LangGraph',
     'Agile methods',
-    'JSON',
     'Git',
-    'GitHub',
-    'REST',
-    'SOAP',
-    'API',
-    'Postman',
-    'Kanban',
+    'SQL',
     'Docker',
-    'Microservices'
+    'Kubernetes',
   ];
   const [letterClass, setLetterClass] = useState('text-animate');
 
@@ -52,16 +46,13 @@ const Skills = () => {
           <p>
             As a dedicated student of the programming arts, I am deeply
             committed to mastering the core principles and applying them in
-            practical scenarios. I have a specific interest in backend
+            practical scenarios. I have a specific interest in AI and ML
             development, which is my chosen field of specialization. My
-            proficiency lies predominantly within the Java, Spring Boot, React, and
-            MySQL domains.
+            proficiency lies predominantly within the Python, AI, and ML domains
           </p>
           <p>
-            Despite this focus, I have also amassed experience in frontend
-            development, further broadening my skill set. But ultimately, it's
-            the intricate architecture of the backend where my passion truly
-            resides.
+            Despite this focus, I have also amassed experience in backend
+            development, further broadening my skill set. 
           </p>
         </div>
         <div className="skills-zone">
