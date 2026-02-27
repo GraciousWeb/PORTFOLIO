@@ -3,8 +3,6 @@ import Loader from 'react-loaders';
 import './index.scss';
 import iso from '../../assets/images/portfolio/Adire.png';
 import robot from '../../assets/images/portfolio/safari.png';
-import wakanow from '../../assets/images/portfolio/wakanow.png';
-import airtimeCash from '../../assets/images/portfolio/airtime-cash.png';
 
 const Portfolio = () => {
   const [projects] = useState([
