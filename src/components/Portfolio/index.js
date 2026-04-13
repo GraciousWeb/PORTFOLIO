@@ -2,37 +2,41 @@ import React, { useState, useEffect } from 'react';
 import Loader from 'react-loaders';
 import './index.scss';
 import iso from '../../assets/images/portfolio/iso.png';
-import robot from '../../assets/images/portfolio/robot.png';
+import product_review from '../../assets/images/portfolio/product_review.png';
+import students from '../../assets/images/portfolio/student-mgt.png';
+import fintech from '../../assets/images/portfolio/fintech.png';
+
 
 const Portfolio = () => {
   const [projects] = useState([
+    
     {
       name: 'Compliance RAG Assistant',
       description:
         ' A retrieval-augmented generation (RAG) assistant over ISO compliance documents to deliver accurate, context-aware regulatory guidance with grounded source citations.        ',
       image: iso,
-      url: 'https://github.com/GraciousWeb/professional_RAG_assistant',
+      url: 'https://professionalragassistant-3gjvggpgextpstnjwefrgj.streamlit.app/',
     },
     {
-      name: 'Fraud Detection System',
+      name: 'Student Management Microservices',
       description:
-        'A machine learning system to detect and predict high-risk credit and fraudulent transactions using advanced classification models and feature engineering.',
-      image: robot,
-      url: 'https://github.com/GraciousWeb/credit-risk-fraud-detection',
+        'A set of microservices for managing student information, enrollments, and academic records.',
+      image: students,
+      url: 'https://github.com/GraciousWeb/student-app-microservices.git',
     },
     {
-      name: 'Project Heart Disease Prediction',
+      name: 'Multi-Agent Fintech Squad',
       description:
-        ' An end-to-end heart disease prediction pipeline with multiple classification models and MLflow experiment tracking to compare performance and ensure reproducible results.',
-      image: robot,
-      url: 'https://github.com/GraciousWeb/mlflow',
+        'A multi-agent system for financial analysis and decision-making, featuring specialized agents for data retrieval, analysis, and reporting.',
+      image: fintech,
+      url: 'https://multi-agent-system-six.vercel.app/',
     },
     {
       name: 'Product Review Rating Predictor',
       description:
-        'A multi-class rating prediction model using TF-IDF feature engineering and a balanced Linear SVM to classify Amazon reviews into 1–5 star ratings.',
-      image: robot,
-      url: 'https://github.com/GraciousWeb/product_review_rating_predictor',
+        'A multi-class rating prediction model using TF-IDF feature engineering and a balanced Linear SVM to classify Amazon reviews into 1 to 5 star ratings.',
+      image: product_review,
+      url: 'https://appuctreviewratingpredictor-wwvjrnucmq5bguwe7zhern.streamlit.app/',
     },
   
   ]);

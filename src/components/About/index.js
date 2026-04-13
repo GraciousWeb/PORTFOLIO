@@ -33,9 +33,9 @@ const About = () => {
             />
           </h1>
           <p>
-          I am  an AI Engineer with hands-on experience integrating Large Language Models into real applications including prompt engineering, API integration, basic RAG pipelines, and evaluation workflows. I’m comfortable turning AI ideas into stable, testable backend services.
-          I focus on practical results: clean integration, predictable behavior, and systems that are easy to extend and maintain. 
-          I thrive in dynamic and collaborative environments.
+          Backend and AI Engineer specializing in production-ready Large Language Model integration. 
+          I have hands-on experience with prompt engineering, API design, RAG pipelines, and evaluation workflows—transforming AI concepts into scalable, testable backend services. 
+          I'm passionate about clean architecture and building maintainable systems in collaborative environments.
           </p>
           <br />
           <p>

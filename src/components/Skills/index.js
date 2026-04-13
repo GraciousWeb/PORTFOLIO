@@ -5,11 +5,14 @@ import Loader from 'react-loaders';
 
 const Skills = () => {
   const skills = [
+    'Java',
     'Python',
+    'Spring Boot',
+    'API Development',
+    'Database Management',
     'AI Integration',
     'Pytorch',
     'Tensorflow',
-    'Java',
     'Vector Databases',
     'Hugging Face',
     'Computer Vision',
@@ -46,9 +49,9 @@ const Skills = () => {
           <p>
             As a dedicated student of the programming arts, I am deeply
             committed to mastering the core principles and applying them in
-            practical scenarios. I have a specific interest in AI and ML
+            practical scenarios. I have a specific interest in Backend/AI and ML
             development, which is my chosen field of specialization. My
-            proficiency lies predominantly within the Python, AI, and ML domains
+            proficiency lies predominantly within the Java, Python, AI, and ML domains
           </p>
           <p>
             Despite this focus, I have also amassed experience in backend
